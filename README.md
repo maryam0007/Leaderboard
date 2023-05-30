@@ -24,8 +24,6 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Leaderboard]** is a list app that displays scores which has been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service. developed using webpack and ES6 features(modules, async and await).
 
 ## 🛠 Built With <a name="built-with"></a>
