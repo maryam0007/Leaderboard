@@ -27,9 +27,6 @@
 **[Leaderboard]** is a list app that displays scores which has been submitted by different players, It also allows you to submit your score. All data is manipulated Leaderboard API service. developed using webpack and ES6 features(modules, async and await).
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- JS
-- CSS 
 
 ### Tech Stack <a name="tech-stack"></a>
 
