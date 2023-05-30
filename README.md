@@ -128,37 +128,6 @@ You can deploy this project using:
 - Render.com
 - Netlify.com
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Setup
-
-Clone this repository to your desired folder: To clone a repository from GitHub to your local machine, you can follow these steps:
-
-Open the repository on GitHub that you want to clone.
-
-Click on the green "Code" button on the right side of the screen.
-Select the HTTPS or SSH option to copy the repository URL.
-Open your terminal or command prompt and navigate to the directory where you want to clone the repository.
-Type the following command, replacing with the URL you copied in step 3.
-bash
-Press enter and wait for the repository to finish cloning.
-Once the repository has been cloned, you should see a new directory with the same name as the repository on your local machine.
-
-
-### Usage
-
-To run the project, execute the following command:
-Live Server
-
-### Deployment
-
-You can deploy this project using: 
-
-Netlify
-Github Page
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
