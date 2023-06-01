@@ -8,24 +8,23 @@ const submitEl = document.querySelector('.submit');
 const refreshEl = document.querySelector('.refresh');
 
 const addScore = async (event) => {
-    event.preventDefault();
-    await postGame({ user: nameEl.value, score: +scoreEl.value });
-    nameEl.value = '';
-    scoreEl.value = '';
-  };
+  event.preventDefault();
+  await postGame({ user: nameEl.value, score: +scoreEl.value });
+  nameEl.value = '';
+  scoreEl.value = '';
+};
 
 const renderScores = async () => {
-    const scores = await getGame();
-    scoresEl.innerHTML = '';
-    scores.forEach(({ user, score }) => {
-      scoresEl.innerHTML += `<li class="score__list">${user} : ${score}</li>`;
-    });
-  };
-
-  document.addEventListener('DOMContentLoaded', () => {
-    renderScores();
+  const scores = await getGame();
+  scoresEl.innerHTML = '';
+  scores.forEach(({ user, score }) => {
+    scoresEl.innerHTML += `<li class="score__list">${user} : ${score}</li>`;
   });
-  
-  submitEl.addEventListener('click', addScore);
-  refreshEl.addEventListener('click', renderScores);
-  
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderScores();
+});
+
+submitEl.addEventListener('click', addScore);
+refreshEl.addEventListener('click', renderScores);
